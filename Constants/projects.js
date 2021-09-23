@@ -19,6 +19,9 @@ import TALK_3 from '../styles/projects/TALK_3.jpg';
 import POT_1 from '../styles/projects/POT_1.jpg';
 import POT_2 from '../styles/projects/POT_2.jpg';
 import POT_3 from '../styles/projects/POT_3.jpg';
+import EPINFO_1 from '../styles/projects/EPINFO_1.jpg';
+import EPINFO_2 from '../styles/projects/EPINFO_2.jpg';
+import EPINFO_3 from '../styles/projects/EPINFO_3.jpg';
 
 export const projects = [
     {
@@ -28,6 +31,14 @@ export const projects = [
         projectLink: 'http://inzadesign.com/',
         tech: ['HTML5', 'CSS3', 'VanillaJS'],
         photo: [INZA_1, INZA_2, INZA_3],
+    },
+    {
+        name: 'Epinfo',
+        description: 'Epinfo is an epidemiological dashboard. Being a product under the domain Heath Tech, this project majorly solves the problems relating to anonymity in epidemiological studies.',
+        githubLink: 'https://github.com/abby3010/DevFest-Hackathon',
+        projectLink: 'https://epinfo-vaptured-terror.web.app/',
+        tech: ['MERN Stack', 'Material UI'],
+        photo: [EPINFO_1, EPINFO_2, EPINFO_3],
     },
     {
         name: 'Place of Thoughts',
@@ -42,7 +53,7 @@ export const projects = [
         description: 'A place for all businesses. This full stack app becomes a treat for the users because of its features of creating, browsing without authentication and editing your businesses.',
         githubLink: 'https://github.com/AsavariA/the-bizness-project',
         projectLink: 'https://the-bizness-project.netlify.app/',
-        tech: ['MERN Stack'],
+        tech: ['MERN Stack', 'Material UI'],
         photo: [BIZ_1, BIZ_2, BIZ_3],
     },
     {
