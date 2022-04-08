@@ -70,7 +70,7 @@ const WorkProject = ({ currentTheme, project, id }) => {
         </div>
         <div className={styles.imageandsocials}>
           <div className={styles.card} {...handlers} style={{ borderColor: currentTheme.footerColor, position: 'relative' }}>
-            <Image src={project.photo[index]} alt='thumbnail image' height='300' width='500' />
+            <Image src={project.photo[index]} alt='thumbnail image' height='300' width='500' objectFit='cover' />
             <button onClick={back} style={{position: 'absolute', top: '50%', left: '10px', color: 'white', fontSize: '20px'}}>&lt;</button>
             <button onClick={ahead} style={{position: 'absolute', top: '50%', right: '10px', color: 'white', fontSize: '20px'}}>&gt;</button>
           </div>

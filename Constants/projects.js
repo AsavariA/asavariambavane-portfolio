@@ -22,8 +22,22 @@ import POT_3 from '../styles/projects/POT_3.jpg';
 import EPINFO_1 from '../styles/projects/EPINFO_1.jpg';
 import EPINFO_2 from '../styles/projects/EPINFO_2.jpg';
 import EPINFO_3 from '../styles/projects/EPINFO_3.jpg';
+import PRATI_1 from "../styles/projects/Prati_1.PNG"
+import PRATI_2 from "../styles/projects/Prati_2.PNG"
+import PRATI_3 from "../styles/projects/Prati_3.PNG"
+import VPC_1 from "../styles/projects/VPC_1.PNG"
+import VPC_2 from "../styles/projects/VPC_2.PNG"
+import VPC_3 from "../styles/projects/VPC_3.PNG"
 
 export const projects = [
+    {
+        name: 'Pratibimb VJTI',
+        description: 'Designed and developed the official website of Pratibimb VJTI, the cultural extravaganza of VJTI Mumbai. It showcases the organization’s glamour through a rich variety of activities, events and public relations. ',
+        githubLink: '',
+        projectLink: 'https://pratibimbvjti.in/',
+        tech: ['ReactJS', 'Firebase', 'Sass'],
+        photo: [PRATI_1, PRATI_2, PRATI_3],
+    },
     {
         name: 'INZA Design Co',
         description: 'A Commercial Website for the branding agency, This website showcases beauty in minimalism. Seamless animations and pleasing color schemes truly brings about an aesthetic feel to it.',
@@ -39,6 +53,14 @@ export const projects = [
         projectLink: 'https://epinfo-vaptured-terror.web.app/',
         tech: ['MERN Stack', 'Material UI'],
         photo: [EPINFO_1, EPINFO_2, EPINFO_3],
+    },
+    {
+        name: 'VJTI Pointer Calculator',
+        description: 'This project is an academic-level project created for students of VJTI. It enables easy calculation of pointer depending on their grades.',
+        githubLink: 'https://github.com/AsavariA/vjti-pointer-calculator',
+        projectLink: 'https://vjti-pointer-calculator.web.app/',
+        tech: ['React', 'Firebase'],
+        photo: [VPC_1, VPC_2, VPC_3],
     },
     {
         name: 'Place of Thoughts',
@@ -66,9 +88,9 @@ export const projects = [
     },
     {
         name: 'Portfolio Website',
-        description: "My very own portfolio website! It showcases my work, abilities and other things about me. It's previous version also won the E-Portfolio competition at Technovanza 2021, VJTI.",
-        githubLink: 'https://github.com/AsavariA/next-website',
-        projectLink: '/',
+        description: "My very own portfolio website template! Making a portfolio website can be a tedious process. This is an innovative, easy to use website template to make your life easy!",
+        githubLink: 'https://github.com/AsavariA/nextjs-portfolio-template',
+        projectLink: 'https://michaelscott-nextjstemp.vercel.app/',
         tech: ['NextJs','Chakra UI'],
         photo: [PORTFOLIO_1, PORTFOLIO_2, PORTFOLIO_3],
     },

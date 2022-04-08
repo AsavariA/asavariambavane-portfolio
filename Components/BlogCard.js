@@ -7,12 +7,12 @@ const BlogCard = ({ blog, currentTheme }) => {
     
     return (
         <div style={{ whiteSpace: 'initial' }}>
-            <Box maxW="sm" borderWidth="2px" borderRadius="lg" overflow="hidden" bg={currentTheme.secondary}>
-                <Image src={blog.thumbnail || blog.cover_image} alt='thumbnail image' height='300' width='500' />
+            <Box width="100%" borderWidth="2px" height={300} overflowY="scroll" borderRadius="lg" overflow="hidden" bg={currentTheme.secondary}>
+                {/* <Image src={blog.thumbnail || blog.cover_image} alt='thumbnail image' height='300' width='500' /> */}
                 <Box p="6">
                     <HStack spacing={2}>
                         { blog.categories ?
-                            blog.categories.slice(0, 3).map((category, key) => {
+                            blog.categories.slice(0,2).map((category, key) => {
                                 return (
                                     <div key={key}>
                                         <Tag size="sm" borderRadius="md" variant="outline" colorScheme="blue">
@@ -40,7 +40,7 @@ const BlogCard = ({ blog, currentTheme }) => {
                         {blog.title}
                     </Box>
                     <Box as="span" color={currentTheme.subtext} fontSize="sm">
-                        {blog.description.replace(/(<([^>]+)>)/ig, '').slice(0, 85) + ' . . .'}
+                        {blog.description.replace(/(<([^>]+)>)/ig, '').slice(0, 300) + ' . . .'}
                     </Box>
                     <div style={{marginTop: '1rem'}}>
                         <Box>
