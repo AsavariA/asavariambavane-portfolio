@@ -28,8 +28,20 @@ import PRATI_3 from "../styles/projects/Prati_3.PNG"
 import VPC_1 from "../styles/projects/VPC_1.PNG"
 import VPC_2 from "../styles/projects/VPC_2.PNG"
 import VPC_3 from "../styles/projects/VPC_3.PNG"
+import POLYPHY_1 from "../styles/projects/POLYPHY_1.PNG"
+import POLYPHY_2 from "../styles/projects/POLYPHY_2.PNG"
+import POLYPHY_3 from "../styles/projects/POLYPHY_3.PNG"
+
 
 export const projects = [
+    {
+        name: 'PolyPhy',
+        description: 'This is the project I made as a part of Google Summer of Code 2022 under the UC CROSS Organisation. It is a comprehensive website of the software called Polyphy',
+        githubLink: 'https://github.com/PolyPhyHub/PolyPhy-Website',
+        projectLink: 'https://polyphy.io/',
+        tech: ['React JS', 'SASS',],
+        photo: [POLYPHY_1, POLYPHY_2, POLYPHY_3],
+    },
     {
         name: 'Pratibimb VJTI',
         description: 'Designed and developed the official website of Pratibimb VJTI, the cultural extravaganza of VJTI Mumbai. It showcases the organization’s glamour through a rich variety of activities, events and public relations. ',
