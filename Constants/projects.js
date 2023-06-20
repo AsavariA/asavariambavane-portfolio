@@ -13,9 +13,6 @@ import PORTFOLIO_3 from '../styles/projects/PORTFOLIO_3.jpg';
 import NPM1 from '../styles/projects/NPM1.jpg';
 import NPM2 from '../styles/projects/NPM2.gif';
 import NPM3 from '../styles/projects/NPM3.gif';
-import TALK_1 from '../styles/projects/TALK_1.jpg';
-import TALK_2 from '../styles/projects/TALK_2.jpg';
-import TALK_3 from '../styles/projects/TALK_3.jpg';
 import POT_1 from '../styles/projects/POT_1.jpg';
 import POT_2 from '../styles/projects/POT_2.jpg';
 import POT_3 from '../styles/projects/POT_3.jpg';
@@ -66,38 +63,38 @@ export const projects = [
         tech: ['MERN Stack', 'Material UI'],
         photo: [EPINFO_1, EPINFO_2, EPINFO_3],
     },
-    {
-        name: 'VJTI Pointer Calculator',
-        description: 'This project is an academic-level project created for students of VJTI. It enables easy calculation of pointer depending on their grades.',
-        githubLink: 'https://github.com/AsavariA/vjti-pointer-calculator',
-        projectLink: 'https://vjti-pointer-calculator.web.app/',
-        tech: ['React', 'Firebase'],
-        photo: [VPC_1, VPC_2, VPC_3],
-    },
-    {
-        name: 'Place of Thoughts',
-        description: 'Blogging website. With an interface similar to Medium, this web app facilitates publishing your pieces and grouping them in categories. You can even save and comment on blogs you like!',
-        githubLink: 'https://github.com/AsavariA/place-of-thoughts',
-        projectLink: 'https://placeofthoughts.netlify.app/',
-        tech: ['MERN Stack'],
-        photo: [POT_1, POT_2, POT_3],
-    },
-    {
-        name: 'The Biz Project',
-        description: 'A place for all businesses. This full stack app becomes a treat for the users because of its features of creating, browsing without authentication and editing your businesses.',
-        githubLink: 'https://github.com/AsavariA/the-bizness-project',
-        projectLink: 'https://the-bizness-project.netlify.app/',
-        tech: ['MERN Stack', 'Material UI'],
-        photo: [BIZ_1, BIZ_2, BIZ_3],
-    },
-    {
-        name: 'Ahora Journal',
-        description: 'The application helps the user maintain a personal record of daily happenings and reflections, plan the day and organize the tasks undertaken. It features various tools for boosting productivity.',
-        githubLink: 'https://github.com/AsavariA/ahora-journal-app',
-        projectLink: 'https://journal-cc843.web.app/',
-        tech: ['ReactJS', 'Firebase'],
-        photo: [AHORA_1, AHORA_2, AHORA_3],
-    },
+    // {
+    //     name: 'VJTI Pointer Calculator',
+    //     description: 'This project is an academic-level project created for students of VJTI. It enables easy calculation of pointer depending on their grades.',
+    //     githubLink: 'https://github.com/AsavariA/vjti-pointer-calculator',
+    //     projectLink: 'https://vjti-pointer-calculator.web.app/',
+    //     tech: ['React', 'Firebase'],
+    //     photo: [VPC_1, VPC_2, VPC_3],
+    // },
+    // {
+    //     name: 'Place of Thoughts',
+    //     description: 'Blogging website. With an interface similar to Medium, this web app facilitates publishing your pieces and grouping them in categories. You can even save and comment on blogs you like!',
+    //     githubLink: 'https://github.com/AsavariA/place-of-thoughts',
+    //     projectLink: 'https://placeofthoughts.netlify.app/',
+    //     tech: ['MERN Stack'],
+    //     photo: [POT_1, POT_2, POT_3],
+    // },
+    // {
+    //     name: 'The Biz Project',
+    //     description: 'A place for all businesses. This full stack app becomes a treat for the users because of its features of creating, browsing without authentication and editing your businesses.',
+    //     githubLink: 'https://github.com/AsavariA/the-bizness-project',
+    //     projectLink: 'https://the-bizness-project.netlify.app/',
+    //     tech: ['MERN Stack', 'Material UI'],
+    //     photo: [BIZ_1, BIZ_2, BIZ_3],
+    // },
+    // {
+    //     name: 'Ahora Journal',
+    //     description: 'The application helps the user maintain a personal record of daily happenings and reflections, plan the day and organize the tasks undertaken. It features various tools for boosting productivity.',
+    //     githubLink: 'https://github.com/AsavariA/ahora-journal-app',
+    //     projectLink: 'https://journal-cc843.web.app/',
+    //     tech: ['ReactJS', 'Firebase'],
+    //     photo: [AHORA_1, AHORA_2, AHORA_3],
+    // },
     {
         name: 'Portfolio Website',
         description: "My very own portfolio website template! Making a portfolio website can be a tedious process. This is an innovative, easy to use website template to make your life easy!",
@@ -113,13 +110,5 @@ export const projects = [
         projectLink: 'https://www.npmjs.com/package/responsive-sticky-nav',
         tech: ['NodeJS', 'Webpack'],
         photo: [NPM1, NPM2, NPM3],
-    },
-    {
-        name: 'Talkative',
-        description: "Who doesn't love a good old chat application. With an intention of bringing a more modern feel to conventional chat apps, I tried my hand at an application called Talkative.",
-        githubLink: 'https://github.com/AsavariA/talkative',
-        projectLink: '',
-        tech: ['ReactJS', 'Firebase'],
-        photo: [TALK_1, TALK_2, TALK_3],
     },
 ]
